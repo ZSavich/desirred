@@ -1,0 +1,6 @@
+https://fonts.google.com/specimen/Lato
+Lato Regular
+Lato Black
+Lato Bold
+https://fonts.google.com/specimen/Open+Sans
+OpenSans Regular
