@@ -1,0 +1,31 @@
+.main-nav__list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.main-nav__item {
+	margin-right: 63px;
+
+	&:last-child {
+	  margin-right: 0px;
+	}
+}
+
+.main-nav__link {
+  display: block;
+	color: #120400;
+	padding-top: 28px;
+	padding-bottom: 24px;
+
+	&:hover,
+	&:focus {
+	  outline: none;
+    text-shadow: 0 0 .65px black, 0 0 .65px black;
+	}
+
+	&:hover + .drop-nav,
+	&:focus + .drop-nav {
+	  display: flex;
+	}
+}

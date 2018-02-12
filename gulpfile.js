@@ -20,7 +20,7 @@ gulp.task('style', function(){
     	  browsers: ['last 2 version'],
     	  cascade: false
     	}))
-    .pipe(gulp.dest('./dist/css'))
+    .pipe(gulp.dest('./css'))
     .pipe(csso())
     .pipe(rename(function(path) {
     	path.basename += '.min';

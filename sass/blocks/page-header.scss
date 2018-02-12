@@ -1,0 +1,37 @@
+.page-header {
+	
+}
+
+.page-header__top {
+	display: flex;
+	justify-content: space-between;
+
+	padding-top: 24px;
+	padding-bottom: 10px;
+}
+
+.page-header__search {
+	width: 540px;
+}
+
+.page-header__top-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 540px;
+	align-self: flex-start;
+	text-align: right;
+}
+
+.page-header__top-link {
+  color: #120400;
+	text-transform: capitalize;
+	margin-left: 50px;
+	margin-top: 23px;
+}
+
+.page-header__main-nav {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+}

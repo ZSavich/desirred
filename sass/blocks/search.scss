@@ -1,0 +1,29 @@
+.search {
+	position: relative;
+	align-self: flex-start;
+}
+
+.search input[type="search"] {
+  width: 225px;
+	border: none;
+	font: inherit;
+	border-bottom: 1px solid #120400;
+	padding-left: 39px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	outline: none;
+}
+
+.search__icon {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+
+	width: 19px;
+	height: 19px;
+	background-image: url("../img/icon-search.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
