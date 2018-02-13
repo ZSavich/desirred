@@ -1,13 +1,114 @@
+.our-brands {
+	margin-bottom: 100px;
+}
+
+.our-brands__header {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	position: relative;
+	margin-bottom: 80px;
+}
+
 .our-brands__view-all {
 	color: black;
 	font-size: 20px;
 	font-weight: 700;
+	line-height: 25px;
 	text-decoration: underline;
-	text-transform: capitalize;
+	text-transform: none;
+	position: absolute;
+	right: 5px;
+	top: 55%;
+	transform: translateY(-50%);
 }
 
 .our-brands__title {
 	color: black;
 	font-size: 25px;
 	font-weight: 700;
+}
+
+.our-brands__slider {
+	width: 1140px;
+
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-left: 90px;
+	padding-right: 90px;
+
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+
+	position: relative;
+}
+
+.our-brands__img {
+	width: 256px;
+	height: 360px;
+	margin-bottom: 50px;
+  background-color: #555555;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 126px;
+    height: 35px;
+    background-image: url("../img/Clarks.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &--lerros::after {
+    width: 114px;
+    height: 85px;
+    background-image: url("../img/lerros.svg");
+  }
+
+  &--emporio::after {
+    width: 131px;
+    height: 89px;
+    background-image: url("../img/emporio.png");
+  }
+
+  &--gant::after {
+    width: 146px;
+    height: 37px;
+    background-image: url("../img/gant.svg");
+  }
+}
+
+.our-brands__img:hover::after,
+.our-brands__img:focus::after {
+	display: block;
+}
+
+.our-brands__img:hover .our-brands__bg,
+.our-brands__img:focus .our-brands__bg {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.our-brands__link {
+	color: black;
+}
+
+.our-brands__controls {
+	position: absolute;
+	top: 40%;
+	left: 10px;
+	right: 10px;
+	transform: translateY(-50%);
+
+	display: flex;
+	justify-content: space-between;
+	z-index: -1;
 }

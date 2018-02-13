@@ -1,22 +1,72 @@
+.banners {
+	margin-bottom: 85px;
+}
+
+.banners__product {
+  height: 457px;
+	background-image: url("../img/banner-1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+
+	margin-bottom: 15px;
+}
+
 .banners__product h3 {
   font-size: 62px;
   font-weight: 900;
   color: white;
 	text-shadow: 0 0 21px rgba(90, 59, 16, 0.44);
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+	align-self: flex-start;
+	margin-bottom: 50px;
 }
 
 .banners__product-link {
 	color: white;
 	font-size: 20px;
 	font-weight: 700;
-	text-transform: capitalize;
+	text-transform: none;
 	text-decoration: underline;
+	margin-bottom: 90px;
+}
+
+.banners__sales {
+  display: flex;
+
+  width: 1440px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.banners__sales-left {
+	width: 500px;
+}
+
+.banners__sales-right {
+	background-color: #a1907e;
+	flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  padding-top: 30px;
 }
 
 .banners__sales-title {
 	color: white;
 	font-size: 27px;
-	line-height: 78px;
+	line-height: 35px;
 }
 
 .banners__sales-text {

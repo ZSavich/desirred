@@ -116,56 +116,68 @@
 		<h1 class="visual-hidden">Desirred</h1>
     <section class="banners">
       <h2 class="visual-hidden">Best products and sales</h2>
-      <div class="banners__product">
+      <div class="banners__product  container">
         <h3>Denim Collection</h3>
-        <a class="banners__product-link" href="#">Viev all</a>
+        <a class="banners__product-link" href="#">View all</a>
       </div>
-      <div class="banners__sales">
+      <div class="banners__sales  container">
       	<div class="banners__sales-left">
       		<img class="banners__sales-img" src="img/banner-2.jpg" alt="girl">
       	</div>
       	<div class="banners__sales-right">
           <p class="banners__sales-title">Bonus cards promo</p>
-          <span class="banners__sales-text">Sales up to 40%</span>
+          <span class="banners__sales-text">Sales<br> up to 40%</span>
       	</div>
       </div>
     </section>
     <section class="our-brands  container">
-    	<h2 class="container__title">Our brands</h2>
-    	<a class="our-brands__view-all" href="#">View all</a>
+      <header class="our-brands__header">
+      	<h2 class="container__title">Our brands</h2>
+      	<a class="our-brands__view-all" href="#">View all</a>
+      </header>
     	<ul class="our-brands__slider  slider">
-        <li class="slider__item">
+        <li class="our-brands__item  slider__item">
           <div class="our-brands__img  our-brands__img--clarks">
-          	<img class="our-brands__bg" src="img/brands-1.jpg">
+          	<img class="our-brands__bg" src="img/brands-1.jpg" alt="clarks">
           </div>
-          <h3 class="our-brands__title">Clarks</h3>
+          <h3 class="our-brands__title">
+            <a class="our-brands__link" href="#">Clarks</a>
+          </h3>
         </li>
-        <li class="slider__item">
+        <li class="our-brands__item  slider__item">
           <div class="our-brands__img  our-brands__img--lerros">
-          	<img class="our-brands__bg" src="img/brands-2.jpg">
+          	<img class="our-brands__bg" src="img/brands-2.jpg" alt="lerros">
           </div>
-          <h3 class="our-brands__title">Lerros</h3>
+          <h3 class="our-brands__title">
+            <a class="our-brands__link" href="#">Lerros</a>
+          </h3>
         </li>
-        <li class="slider__item">
+        <li class="our-brands__item  slider__item">
           <div class="our-brands__img  our-brands__img--emporio">
-          	<img class="our-brands__bg" src="img/brands-3.jpg">
+          	<img class="our-brands__bg" src="img/brands-3.jpg" alt="emporio">
           </div>
-          <h3 class="our-brands__title">Emporio Armani</h3>
+          <h3 class="our-brands__title">
+            <a class="our-brands__link" href="#">Emporio Armani</a>
+          </h3>
         </li>
-        <li class="slider__item">
+        <li class="our-brands__item  slider__item">
           <div class="our-brands__img  our-brands__img--gant">
-          	<img class="our-brands__bg" src="img/brands-4.jpg">
+          	<img class="our-brands__bg" src="img/brands-4.jpg" alt="gant">
           </div>
-          <h3 class="our-brands__title">Gant</h3>
+          <h3 class="our-brands__title">
+            <a class="our-brands__link" href="#">Gant</a>
+          </h3>
+        </li>
+        <li class="our-brands__controls  slider__controls">
+          <button class="slider__control  slider__control--prev">Next</button>
+          <button class="slider__control  slider__control--next">Prev</button>
         </li>
     	</ul>
-    	<div class="slider__controls">
-		    <button class="slider__control  slider_-control--prev">Next</button>
-		    <button class="slider__control  slider_-control--next">Prev</button>
-    	</div>
     </section>
     <section class="new-arrivals  container">
-    	<h2 class="container__title">New arrivals</h2>
+      <header class="new-arrivals__header">
+        <h2 class="container__title">New arrivals</h2>
+      </header>
     	<ul class="new-arrivals__list">
     		<li class="new-arrivals__item">
     			<img class="new-arrivals__photo" src="img/arrivals-1.jpg" alt="emporio armano">
@@ -205,10 +217,10 @@
       <h2 class="visual-hidden">Newsletter</h2>
       <span class="newsletter__title">Sign up for our newsletter</span>
       <p class="newsletter__text">Be the first to check out all our news and new collection launches.</p>
-      <a class="newsletter__btn btn">Sign up</a>
+      <a class="newsletter__btn btn" href="#">Sign up</a>
     </section>
 	</main>
-	<footer class="page-footer">
+	<footer class="page-footer  container">
     <div class="page-footer__left">
     	<div class="page-footer__about">
     		<h2 class="page-footer__title">About us</h2>
@@ -250,21 +262,9 @@
 	    	</ul>
 	    </div>
     </div>
-    <div class="page-footer__privacy  privacy">
-    	<ul class="privacy__list">
-    		<li class="privacy__item">
-    			<a class="privacy__link" href="#">Legal Notice</a>
-    		</li>
-    		<li class="privacy__item">
-    			<a class="privacy__link" href="#">Privacy Policy</a>
-    		</li>
-    		<li class="privacy__item">
-    			<a class="privacy__link" href="#">Cookies</a>
-    	</ul>
-    </div>
     <div class="page-footer__right">
     	<div class="page-footer__socials socials">
-        <span class="page-footer__title">Connect with us</span>
+        <span class="page-footer__title  page-footer__title--socials">Connect with us</span>
     		<ul class="socials__list">
     			<li class="socials__item">
     				<a class="socials__link" href="#">
@@ -291,13 +291,23 @@
     	<div class="page-footer__speek">
     		<ul class="page-footer__country  select">
     			<li class="select__item">UK</li>
-    			<li class="select__item">Ukraine</li>
     		</ul>
     		<ul class="page-footer__language  select">
     			<li class="select__item">English</li>
-    			<li class="select__item">Russian</li>
     		</ul>
     	</div>
+    </div>
+    <div class="page-footer__privacy  privacy">
+      <ul class="privacy__list">
+        <li class="privacy__item">
+          <a class="privacy__link" href="#">Legal Notice</a>
+        </li>
+        <li class="privacy__item">
+          <a class="privacy__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="privacy__item">
+          <a class="privacy__link" href="#">Cookies</a>
+      </ul>
     </div>
     <div class="page-footer__copyright">
       <p class="page-footer__copyright-text">Desirred 2017 All rights reserved</p>

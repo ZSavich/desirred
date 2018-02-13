@@ -1,12 +1,22 @@
+.newsletter {
+  margin-top: -40px;
+	background-color: #a1907e;
+	padding-top: 65px;
+	padding-bottom: 33px;
+	text-align: center;
+}
+
 .newsletter__title {
 	color: white;
 	font-size: 35px;
 	font-weight: 700;
-	text-transform: capitalize;
+	text-transform: none;
 }
 
 .newsletter__text {
 	color: white;
 	font-size: 18px;
-	text-transform: capitalize;
+	text-transform: none;
+	margin-top: 22px;
+	margin-bottom: 38px;
 }
