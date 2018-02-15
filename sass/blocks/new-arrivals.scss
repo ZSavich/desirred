@@ -85,4 +85,9 @@
 	text-decoration: underline;
 	cursor: pointer;
 	z-index: 2;
+
+	&:hover {
+	  color: #e6d1bb;
+	  text-decoration: none;
+	}
 }

@@ -13,9 +13,14 @@
 
 	transform: rotate(130deg);
   cursor: pointer;
+  z-index: 2;
 
 	&--next {
 	  transform: rotate(310deg);
 
 	}
+}
+
+.slider__item {
+	z-index: 2;
 }
